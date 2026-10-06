@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>VaultKey | OTP Verification</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background effects -->
+    <div class="pointer-light" id="pointerLight"></div>
+    <div class="noise"></div>
+
+    <main class="card" id="card" data-state="input">
+
+        <!-- STATE 1: Enter code -->
+        <section class="view view-input">
+            <h1 class="title">Enter Access Code</h1>
+            <p class="subtitle">A 4-digit code has been sent to your device.</p>
+
+            <div class="otp" id="otp">
+                <input class="otp-box" type="text" inputmode="numeric" maxlength="1" autocomplete="one-time-code" aria-label="Digit 1">
+                <input class="otp-box" type="text" inputmode="numeric" maxlength="1" aria-label="Digit 2">
+                <input class="otp-box" type="text" inputmode="numeric" maxlength="1" aria-label="Digit 3">
+                <input class="otp-box" type="text" inputmode="numeric" maxlength="1" aria-label="Digit 4">
+            </div>
+
+            <p class="resend">Didn't receive it? <button type="button" id="resendBtn">Resend</button></p>
+        </section>
+
+        <!-- STATE 2: Verifying -->
+        <section class="view view-verifying">
+            <h1 class="title">Verifying...</h1>
+            <p class="subtitle">Securely checking your credentials.</p>
+
+            <div class="loader">
+                <span class="pulse"></span>
+                <span class="pulse delay"></span>
+                <svg class="ring" viewBox="0 0 100 100">
+                    <circle class="ring-track" cx="50" cy="50" r="44"></circle>
+                    <circle class="ring-progress" id="ringProgress" cx="50" cy="50" r="44"></circle>
+                </svg>
+                <span class="percent" id="percent">0</span>
+            </div>
+
+            <p class="resend ghost">Didn't receive it? <span>Resend</span></p>
+        </section>
+
+        <!-- STATE 3: Success -->
+        <section class="view view-success">
+            <h1 class="title">Access Granted</h1>
+            <p class="subtitle">Welcome back. Redirecting to your vault...</p>
+
+            <div class="check-wrap">
+                <div class="particles" id="particles"></div>
+                <div class="check-circle">
+                    <svg viewBox="0 0 52 52">
+                        <path class="check-mark" d="M14 27 L23 36 L39 18" />
+                    </svg>
+                </div>
+                <span class="badge">Verified</span>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
