@@ -209,7 +209,7 @@ VaultKey targets current versions of evergreen browsers (Chrome, Edge, Firefox, 
 
 The visual concept and interaction flow were inspired by the public YouTube Short **"OTP Verification UI using HTML, CSS & JavaScript"** by **CodeByGaurav ([@CodeByGaurav](https://www.youtube.com/@CodeByGaurav))**:
 
-- Original video: <https://youtube.com/shorts/LQOona1NXrE>
+- Original video: <https://youtube.com/shorts/eQKE0uUCzQU?si=xH7tY82CzwGRffN6>
 
 This project is an independent, from-scratch recreation of that concept, built for **learning and portfolio purposes only**. All code in this repository was written independently, and no source code or assets from the original were used. All rights to the original concept and design remain with their creator. Please support the original creator by watching and subscribing to their channel.
 
