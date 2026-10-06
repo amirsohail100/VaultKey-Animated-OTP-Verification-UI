@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 Amir Sohail
+Copyright (c) 2026 [Your Name]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,23 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+--------------------------------------------------------------------------------
+
+CREDITS AND ATTRIBUTION
+
+The visual concept and interaction flow of this project were inspired by the
+following public YouTube Short:
+
+  Title:    OTP Verification UI using HTML, CSS & JavaScript
+  Creator:  CodeByGaurav (@CodeByGaurav)
+  URL:      https://youtube.com/shorts/LQOona1NXrE
+
+This project is an independent recreation, built from scratch for learning and
+portfolio purposes only. No source code or assets from the original work were
+copied. All rights to the original concept, design, and content remain with
+their respective creator.
+
+The MIT License above applies solely to the code and documentation written for
+this repository. It does not grant, transfer, or imply any rights in the
+original work referenced in this section.
